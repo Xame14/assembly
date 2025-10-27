@@ -16,7 +16,7 @@ ExitProcess PROTO, dwExitCode:DWORD
 
 .data
 	deciValue1 BYTE 80d
-	hexaValue1 SWORD FFFEBF97h
+	hexaValue1 SDWORD FFFEBF97h
 	binValue1 WORD 0000000111000010b
 
 	inMsg1 BYTE "Please enter a value: ",0
