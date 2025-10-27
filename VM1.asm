@@ -28,7 +28,7 @@ ExitProcess PROTO, dwExitCode:DWORD
 			  BYTE "It is a low-level programming language.",0Dh, 0Ah, 0
 	len3 = ($ - greetMsg1)
 
-	len5 BYTE len3 + 5
+	len5 EQU len3 + 5
 
 .code
 _main PROC
